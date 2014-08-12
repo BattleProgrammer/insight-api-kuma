@@ -2,7 +2,7 @@
 
 // server-side socket behaviour
 var ios = null; // io is already taken in express
-var util = require('bitcore').util;
+var util = require('kumacore').util;
 var mdb = require('../../lib/MessageDb').default();
 var microtime = require('microtime');
 var enableMessageBroker;
