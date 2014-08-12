@@ -54,7 +54,7 @@
     "async": "*",
     "base58-native": "0.1.2",
     "bignum": "*",
-    "kumacore": "git://github.com/BattleProgrammer/kumacore/kumacore.git",
+    "kumacore": "git://github.com/BattleProgrammer/kumacore.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "*",
