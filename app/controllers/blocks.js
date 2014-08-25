@@ -56,6 +56,9 @@ var getBlock = function(blockhash, cb) {
       console.log(err);
       return cb(err);
     }
+    if (!block){
+      return cb(new Error('notfound getBlock'));
+    }
 
     // TODO
     if (!block.info) {
