@@ -1,12 +1,12 @@
 {
-  "name": "insight-bitcore-api",
-  "description": "An open-source bitcoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "name": "insight-kumacore-api",
+  "description": "An open-source kumacoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the kumacoin network and build your own services with it.",
   "version": "0.1.12",
   "author": {
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "repository": "git://github.com/BattleProgrammer/insight-kumacore-api.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,18 +30,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/BattleProgrammer/insight-kumacore-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/BattleProgrammer/insight-kumacore-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "bitcoin api",
+    "kumacoin api",
     "blockchain api",
     "json",
-    "bitcore"
+    "kumacore"
   ],
   "engines": {
     "node": "*"
@@ -51,7 +51,7 @@
     "start": "node node_modules/grunt-cli/bin/grunt"
   },
   "dependencies": {
-    "bitcore": "=0.1.19",
+    "kumacore": "git://github.com/BattleProgrammer/kumacore.git#v0.1.19.kuma",
     "base58-native": "0.1.2",
     "async": "*",
     "leveldown": "*",
